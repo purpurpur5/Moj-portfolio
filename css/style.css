@@ -410,7 +410,7 @@ div .wrapper .grid li .hover .fa {
 footer {
 	background-color: whitesmoke;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column-reverse;
 	justify-content: space-between;
 }
 
@@ -423,7 +423,7 @@ footer span {
 }
 
 footer ul {
-	flex-basis: 40%;
+	flex-basis: 50%;
 	padding-top: 10px;
 }
 
