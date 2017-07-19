@@ -409,8 +409,8 @@ div .wrapper .grid li .hover .fa {
 
 footer {
 	background-color: whitesmoke;
-	display: flex;
-	flex-direction: column-reverse;
+	display:-webkit-flex; /* Safari */
+	flex-direction: row;
 	justify-content: space-between;
 }
 
@@ -418,13 +418,13 @@ footer .fa {
 	font-size: 30px;
 }
 footer span {
-	flex-basis: 50%;
-	padding-top: 10px;
+	flex-basis: 20%;
+	padding-top: 20px;
 }
 
 footer ul {
-	flex-basis: 50%;
-	padding-top: 10px;
+	flex-basis: 20%;
+	padding-top: 20px;
 }
 
 /*--------------------
@@ -530,7 +530,7 @@ footer ul {
 	/* footer */
 
 	footer {
-		flex-direction: column-reverse;
+		-webkit-flex-direction: column-reverse; /* Safari 6.1+ */
 	}
 
 	/* kraj media query do 450px*/
@@ -632,7 +632,7 @@ footer ul {
 	/* footer */
 
 	footer {
-		flex-direction: column-reverse;
+		-webkit-flex-direction: column-reverse; /* Safari 6.1+ */
 	}
 
 	/*kraj media queri-ja za */
